@@ -1,0 +1,4 @@
+To obtain the first image you need a custom slice of the fractal:
+
+fractalSlice :: Rectangle
+fractalSlice = ((0.5, 1.5), (1.5, 0.5))  --CUSTOM FOR 'TWISTER'

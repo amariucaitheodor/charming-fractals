@@ -1,0 +1,3 @@
+The parameter `delta` essentially moves converging numbers closer to their roots. On the other hand, the parameter `closeRoot` decides if a number is close enough to a root to be identified with it. Therefore, by altering the `closeRoot` parameter we can obtain some areas (marked here in black, as usual) where our program basically decides not to colorize some pixels even if their numbers have come very close to a root.
+
+We can use those images to create a gif which seems to display an interesting colorization effect.

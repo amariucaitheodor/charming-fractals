@@ -1,0 +1,1 @@
+The value of the delta parameter can be set so high to the point where numbers actually don't get close enough to their roots so as to be identified in the 'colorize' function. We take advange of this by creating pictures which display some kind of cobweb-like pattern.

@@ -1,0 +1,10 @@
+How to set up:
+
+function x = x^8 - 1
+function' x = 8 * x ^ 7
+
+reals :: [Double]
+reals = [-1, 1, 0, 0, (-1.41/2), (-1.41/2), (1.41/2), (1.41/2)]
+
+imags :: [Double]
+imags = [0, 0, 1, -1, (1.41/2), (-1.41/2), (1.41/2), (-1.41/2)]

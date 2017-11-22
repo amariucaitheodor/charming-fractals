@@ -1,0 +1,32 @@
+How to set up:
+
+
+2 roots:
+function x = x^2-1
+function' x = 2*x
+
+reals :: [Double]
+reals = [1,-1]
+
+imags :: [Double]
+imags = [0,0]
+
+4 roots:
+function x = x^4 - 1
+function' x = 4 * x ^ 3
+
+reals :: [Double]
+reals = [-1, 1, 0, 0]
+
+imags :: [Double]
+imags = [0, 0, 1, -1]
+
+8 roots:
+function x = x^8 - 1
+function' x = 8 * x ^ 7
+
+reals :: [Double]
+reals = [-1, 1, 0, 0, (-1.41/2), (-1.41/2), (1.41/2), (1.41/2)]
+
+imags :: [Double]
+imags = [0, 0, 1, -1, (1.41/2), (-1.41/2), (1.41/2), (-1.41/2)]

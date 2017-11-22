@@ -1,0 +1,10 @@
+How to set up:
+
+function = sin
+function' = cos
+
+reals :: [Double]
+reals = map (pi*) [(-50)..50]
+
+imags :: [Double]
+imags = repeat 0
