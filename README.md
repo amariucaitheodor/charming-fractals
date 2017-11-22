@@ -32,17 +32,20 @@ maxIter: after this many iterations we conclude the point does not converge to s
 closeRoot (used in function 'colorize'): real and imaginary parts of reached number differ by this much from a certain root's own real and imaginary parts, therefore we conclude this should be the corresponding root and we assign its colour to the reached number
 
 shadeTresh: the five thresholds needed to determine the shade of one pixel (I have manually entered 5 shades for each color in the module 'Color.hs')
+
 ----------------------------
 
 ----------------------------
 Pixel shader information:
 The shader which I've written links pixel shades with the corresponding number of iterations. I mainly decided to ignore the trivial method of setting the shade of a pixel to its number of iterations modulo the number of available shades (method which will cycle through colors). Instead I found another viable method using iteration-dependent thresholds.
 My method is quite tedious to set up because of the fact that, usually, specific shade thresholds need to be found for every single combination of parameters in order for the image to properly and proportionately display all of the shades. In conclusion, parameters and shade thresholds need to be tweaked manually. (although the third entry in my list of references contains some interesting information on how to further level the boundaries between different shades, I've decided to stop here).
+
 ----------------------------
 
 ----------------------------
 Nova fractals:
 Although I've tried creating some nova fractals as seen in `Fractals\Studies\novaFractals`, my results were not very pretty. I believe some heavy post-processing is needed for this particular job.
+
 ----------------------------
 
 ----------------------------
@@ -63,6 +66,7 @@ https://en.wikipedia.org/wiki/Newton_fractal
 http://www.hpdz.net/TechInfo/Convergent.htm#Nova
 http://www.hpdz.net/StillImages/Nova.htm
 http://usefuljs.net/fractals/docs/newtonian_fractals.html
+
 ----------------------------
 
 Theodor Amariucai (s1703913), FP Programming Competition 2017
