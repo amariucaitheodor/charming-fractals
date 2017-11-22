@@ -56,7 +56,7 @@ https://mathcs.clarku.edu/~djoyce/julia/julia.html
 -- Essential math theory (previous contact with derivatives helps a great deal):
 http://tutorial.math.lamar.edu/Classes/CalcI/NewtonsMethod.aspx
 
---Everything you need to know
+-- Everything you need to know
 https://www.chiark.greenend.org.uk/~sgtatham/newton/
 
 -- Some inspiration
@@ -69,4 +69,4 @@ http://usefuljs.net/fractals/docs/newtonian_fractals.html
 
 ----------------------------
 
-Theodor Amariucai (s1703913), FP Programming Competition 2017
+Theodor Amariucai, FP Programming Competition 2017
