@@ -1,4 +1,4 @@
-# Charming fractals
+# Charming fractals (1st prize competition winner)
 TL;DR: This short program which I've written here in Haskell renders an image based on Newton's fractal. I have heavily relied on modifying various parameters to create impressive results (see `Fractals\Showcase`). Images located in `Fractals\Studies` bear their corresponding parameters (used to render them) as their names. This makes working with lots of fractals INSANELY easier.
 To install dependencies (Graphics.GD library):
 cabal install gd
