@@ -50,6 +50,7 @@ Although I've tried creating some nova fractals as seen in `Fractals\Studies\nov
 
 ----------------------------
 References:
+
 -- Very rewarding read. Even if unrelated to Newton's Method, acts as a general introduction to fractals:
 https://mathcs.clarku.edu/~djoyce/julia/julia.html
 
