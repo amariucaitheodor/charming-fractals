@@ -1,19 +1,31 @@
-# Charming fractals (first prize competition winner)
-TL;DR: This short program which I've written here in Haskell renders an image based on Newton's fractal. I have heavily relied on modifying various parameters to create impressive results (see `Fractals\Showcase`). Images located in `Fractals\Studies` bear their corresponding parameters (used to render them) as their names. This makes working with lots of fractals INSANELY easier.
-To install dependencies (Graphics.GD library):
+# Charming fractals (First Prize competition winner)
+
+<div>
+  <div style="float: left;width: 50%;padding: 5px;box-sizing: border-box; margin-right:20px">
+    <img src="/Fractals/Showcase/Twister%20(my%20favourite).png" alt="twister" width="425px" style="width:100%"/>
+  </div>
+  <div style="float: left;width: 50%;padding: 5px;box-sizing: border-box;">
+    <img src="/Fractals/Showcase/Flower%20power.png" alt="flower_power" width="425px" style="width:100%"/>
+  </div>
+</div>
+
+## Description 
+This short program which I've written here in Haskell renders an image based on Newton's fractal. I have relied on modifying various parameters to create impressive results (see `Fractals\Showcase`). Images located in `Fractals\Studies` bear their corresponding parameters (used to render them) as their names. This makes working with lots of different generated fractals easier.
+
+## Install dependencies (Graphics.GD library):
+```
 cabal install gd
 sudo apt-get install libgd2-xpm-dev
+```
 
-----------------------------
-How to run:
+## Run
  - Compile Main.hs
  - type "main" and run it
  - my favourite fractal should be created in the directory "Fractals" and named after its parameters.
-----------------------------
 
+## Detailed description 
 Naturally, real numbers don't bear much variation when it comes to converging to either one of an equation's roots. They just rush to the closest root. Here is where complex numbers come into play (we import the Data.Complex library to represent those). Each pixel's coordinates in an image represent a complex number's real and imaginary parts. The real part is on the X-axis and imaginary part is on the Y-axis (see first link in references for more info).
 
-----------------------------
 Explanation of functions:
 function x: Newton's method will be applied to this function.
 function' x: the function's derivative is also required.
@@ -33,23 +45,14 @@ closeRoot (used in function 'colorize'): real and imaginary parts of reached num
 
 shadeTresh: the five thresholds needed to determine the shade of one pixel (I have manually entered 5 shades for each color in the module 'Color.hs')
 
-----------------------------
-
-----------------------------
-Pixel shader information:
+#### Pixel shader
 The shader which I've written links pixel shades with the corresponding number of iterations. I mainly decided to ignore the trivial method of setting the shade of a pixel to its number of iterations modulo the number of available shades (method which will cycle through colors). Instead I found another viable method using iteration-dependent thresholds.
 My method is quite tedious to set up because of the fact that, usually, specific shade thresholds need to be found for every single combination of parameters in order for the image to properly and proportionately display all of the shades. In conclusion, parameters and shade thresholds need to be tweaked manually. (although the third entry in my list of references contains some interesting information on how to further level the boundaries between different shades, I've decided to stop here).
 
-----------------------------
-
-----------------------------
-Nova fractals:
+#### Nova fractals:
 Although I've tried creating some nova fractals as seen in `Fractals\Studies\novaFractals`, my results were not very pretty. I believe some heavy post-processing is needed for this particular job.
 
-----------------------------
-
-----------------------------
-References:
+## References:
 
 -- Very rewarding read. Even if unrelated to Newton's Method, acts as a general introduction to fractals:
 https://mathcs.clarku.edu/~djoyce/julia/julia.html
