@@ -1,13 +1,8 @@
 # Charming fractals (First Prize competition winner)
 
-<div>
-  <div style="float: left;width: 50%;padding: 5px;box-sizing: border-box; margin-right:20px">
-    <img src="/Fractals/Showcase/Twister%20(my%20favourite).png" alt="twister" width="400px" style="width:100%"/>
-  </div>
-  <div style="float: left;width: 50%;padding: 5px;box-sizing: border-box;">
-    <img src="/Fractals/Showcase/Flower%20power.png" alt="flower_power" width="400px" style="width:100%"/>
-  </div>
-</div>
+Twister             |  Flower power
+:-------------------------:|:-------------------------:
+<img src="/Fractals/Showcase/Twister%20(my%20favourite).png" alt="twister" width="400px" style="width:100%"/>)  |  <img src="/Fractals/Showcase/Flower%20power.png" alt="flower_power" width="400px" style="width:100%"/>
 
 ## Description 
 This short program which I've written here in Haskell renders an image based on Newton's fractal. I have relied on modifying various parameters to create impressive results (see `Fractals\Showcase`). Images located in `Fractals\Studies` bear their corresponding parameters (used to render them) as their names. This makes working with lots of different generated fractals easier.
