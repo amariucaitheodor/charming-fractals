@@ -2,10 +2,10 @@
 
 <div>
   <div style="float: left;width: 50%;padding: 5px;box-sizing: border-box; margin-right:20px">
-    <img src="/Fractals/Showcase/Twister%20(my%20favourite).png" alt="twister" width="425px" style="width:100%"/>
+    <img src="/Fractals/Showcase/Twister%20(my%20favourite).png" alt="twister" width="400px" style="width:100%"/>
   </div>
   <div style="float: left;width: 50%;padding: 5px;box-sizing: border-box;">
-    <img src="/Fractals/Showcase/Flower%20power.png" alt="flower_power" width="425px" style="width:100%"/>
+    <img src="/Fractals/Showcase/Flower%20power.png" alt="flower_power" width="400px" style="width:100%"/>
   </div>
 </div>
 
